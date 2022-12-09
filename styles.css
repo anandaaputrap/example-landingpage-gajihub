@@ -95,6 +95,22 @@ figure, p { margin: 0; }
     }
 }
 
+.patner-kami {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	justify-items: center;
+	align-items: center;
+	margin: 2rem 0;
+}
+
+.patner-kami img {
+	width: 100px;
+}
+
+#h2k{
+    color: #ffffff;
+}
+
 #footer { padding: 4vw 0 0; }
 
 #footer #map {
